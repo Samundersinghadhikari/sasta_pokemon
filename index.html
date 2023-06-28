@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Asset Storage</title>
+  <style>
+    /* Add some basic styles for the page */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    .asset-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .asset-item {
+      width: 200px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+    .asset-item img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Asset Storage</h1>
+  
+  <!-- Create a container for your assets -->
+  <div class="asset-container">
+    <!-- Example image asset -->
+    <div class="asset-item">
+      <img src="space.png" alt="Image 1">
+    </div>
+    
+    <!-- Example sound asset -->
+    <div class="asset-item">
+      <audio controls>
+        <source src="phir.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    
+    <!-- Add more asset items as needed -->
+  </div>
+</body>
+</html>
